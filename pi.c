@@ -12,10 +12,10 @@ int main() {
 
  count = 0;
  for(i = 0; i < n; i++) {
-     x=(double)2*rand()/RAND_MAX-1;
-     y=(double)2*rand()/RAND_MAX-1;
+     x=2*rand()/RAND_MAX-1;
+     y=2*rand()/RAND_MAX-1;
      if(x*x+y*y<=1) count++;
  }
- pi = (double) 4*count/n; 
+ pi =  4*count/n; 
  printf("Approximate value of PI = %f", pi);
 }
